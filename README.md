@@ -1,2 +1,7 @@
 # fortissimo
-Mornings will never be the same again.
+
+# Motivation
+
+# License
+
+[See LICENSE](https://github.com/fortissimo-ff/fortissimo/blob/master/LICENSE.md)
