@@ -1,4 +1,4 @@
-# fortissimo
+# Fortissimo
 
 # Motivation
 
