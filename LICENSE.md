@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2015 Fortissimo. All Rights Reserved.
+Copyright (c) 2016 Fortissimo. All Rights Reserved.
 
 No posts, images, videos, and audio clips are to be copied 
 and distributed without the authors' or copyright holders' permission. 
