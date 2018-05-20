@@ -1,6 +1,10 @@
 # fortissimo
 
+
+
 # Motivation
+
+Mornings will never be the same again. 
 
 # Tech Stack
 
