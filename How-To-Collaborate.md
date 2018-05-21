@@ -1,4 +1,4 @@
-Note: Steps 1 - 4 follow [Project Landing Page]() for columns Backlog to QA while Step 5 concludes at column Done.
+Note: Steps 1 - 4 follow [Project Landing Page](https://github.com/fortissimo-ff/fortissimo-landing-page-android/projects/1) for columns Backlog to QA while Step 5 concludes at column Done.
 
 1) [Fork]() the fortissimo landing page repo by clicking on the "Fork" button at the top right-hand side of the repo and 
 find a bug (e.g. code, documentation, accessibility, test coverage) or think of a quick question. For questions that require more lengthy discussions, join the [fortissimo discussion](https://github.com/orgs/fortissimo-ff/teams/tech-ninjas).
