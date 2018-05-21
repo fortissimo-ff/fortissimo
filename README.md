@@ -4,7 +4,7 @@
 
 # Motivation
 
-Mornings will never be the same again. 
+Tell the world what fortissimo is all about via an Android app. 
 
 # Tech Stack
 
