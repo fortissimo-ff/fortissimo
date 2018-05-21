@@ -1,6 +1,6 @@
-# fortissimo
+# fortissimo-landing-page-android
 
-
+[How To Collaborate]()
 
 # Motivation
 
@@ -8,7 +8,7 @@ Mornings will never be the same again.
 
 # Tech Stack
 
-[HTML5 Hackform Tool](https://github.com/CookiesNCream/h5ht)
+* [React Native App](https://github.com/react-community/create-react-native-app/)
 
 # License
 
