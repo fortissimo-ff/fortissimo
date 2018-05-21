@@ -9,6 +9,7 @@ Tell the world what fortissimo is all about via an Android app.
 # Tech Stack
 
 * [React Native App](https://github.com/react-community/create-react-native-app/)
+* [React Native Firebase](https://github.com/invertase/react-native-firebase)
 
 # License
 
