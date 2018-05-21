@@ -1,6 +1,6 @@
 # fortissimo-landing-page-android
 
-[How To Collaborate]()
+[How To Collaborate](https://github.com/fortissimo-ff/fortissimo-landing-page-android/blob/master/How-To-Collaborate.md)
 
 # Motivation
 
