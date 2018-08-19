@@ -1,7 +1,7 @@
 Note: Steps 1 - 4 follow [Project Landing Page Android](https://github.com/fortissimo-ff/fortissimo-landing-page-android/projects/1) for columns Backlog to QA while Step 5 concludes at column Done.
 
 1) [Fork]() the fortissimo landing page repo by clicking on the "Fork" button at the top right-hand side of the repo and 
-find a bug (e.g. code, documentation, accessibility, test coverage) or think of a quick question. For questions that require more lengthy discussions, join the [fortissimo discussion](https://github.com/orgs/fortissimo-ff/teams/tech-ninjas).
+find a bug (e.g. code, documentation, accessibility, test coverage) or think of a quick question. For questions that require more lengthy discussions, join the [fortissimo discussion](https://github.com/orgs/fortissimo-ff/teams/tech-ninjas). Clone the forked fortissimo landing page repo.
 
 2) Raise an [issue]() by indicating a title for the new issue (the numbering of the issue with e.g. #1, #2, #3, #4, etc. is automatically generated), what the issue is, why is it an issue, what needs improvement or fixing, and what can be done to improve or fix it. 
 Label the issue (e.g. bug, documentation, accessibility, test coverage). See [Raise Issue Template]()
