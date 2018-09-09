@@ -2,8 +2,6 @@ import React from 'react';
 import { StyleSheet, Text, View, ImageBackground } from 'react-native';
 
 
-// Components
-import Blurbs from './Blurbs';
 
 export default class About extends React.Component {
   render() {
