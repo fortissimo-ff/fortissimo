@@ -9,7 +9,9 @@ export default class About extends React.Component {
   render() {
     return (
       <View style={styles.background}>
-        <Blurbs />
+        <Text style={styles.header}>
+          our story
+        </Text>
       </View>
     );
   }
@@ -21,4 +23,12 @@ const styles = StyleSheet.create({
     fontSize: 25,
     textAlign: 'center',
   }
+
+  header: {
+    color: '#9739E8',
+    fontSize: 35,
+    fontStyle: 'italic',
+    fontWeight: 'lighter',
+    textAlign: 'center',
+  },
 });
