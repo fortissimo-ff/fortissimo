@@ -17,16 +17,14 @@ export default class About extends React.Component {
 
 const styles = StyleSheet.create({
   background: {
-    color: 'white',
-    fontSize: 25,
-    textAlign: 'center',
-  }
+    backgroundColor: 'white',
+  },
 
   header: {
     color: '#9739E8',
     fontSize: 35,
     fontStyle: 'italic',
-    fontWeight: 'lighter',
+    fontWeight: '300',
     textAlign: 'center',
   },
 });

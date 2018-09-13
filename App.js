@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, ScrollView } from 'react-native';
 // Components
 import Home from './src/components/Home/Home';
 import About from './src/components/About/About';
+import Video from './src/components/Video/Video';
 
 export default class App extends React.Component {
   render() {
@@ -13,9 +14,7 @@ export default class App extends React.Component {
           <Home />
           <About />
 
-
-
-
+          <Video />
         </ScrollView>
       </View>
     );
