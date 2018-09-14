@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, ImageBackground } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import { WebView } from 'react-native';
 import { Dimensions } from 'react-native';
 
