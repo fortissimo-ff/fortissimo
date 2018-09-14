@@ -2,12 +2,12 @@ import React from 'react';
 import { StyleSheet, Text, View, ImageBackground } from 'react-native';
 
 
-export default class About extends React.Component {
+export default class WhatWeDo extends React.Component {
   render() {
     return (
       <View>
         <Text style={styles.header}>
-          our story
+          what we do
         </Text>
       </View>
     );
@@ -21,4 +21,5 @@ const styles = StyleSheet.create({
     fontStyle: 'italic',
     textAlign: 'center',
   },
+
 });
