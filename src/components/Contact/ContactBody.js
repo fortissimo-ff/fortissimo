@@ -1,27 +1,20 @@
 import React, { Component } from "react";
-import { View, Text, StyleSheet, Image, Linking} from 'react-native';
-import SvgUri from 'react-native-svg-uri';
-import Facebook_logo from "../../img/img-icon-Facebook.svg";
-import Instagram_logo from "../../img/img-icon-Instagram.svg";
-import Twitter_logo from "../../img/img-icon-Twitter.svg";
+import { View, Text, StyleSheet } from 'react-native';
 
 class ContactBody extends Component {
   render() {
     return (
-        <View>
+        <View style={styles.container}>
               <View>
                 <Text style={styles.italicsTitle}>contact us</Text>
-              </View>
-              <View>
+              </View>lu
+              <View>lu
                 <Text style={styles.chatHelp}>Chat with us on Messenger!</Text>
               </View>
               <View>
                 <Text style={styles.chatHelp}>Take a minute to help.</Text>
               </View>
               <View style={styles.iconContainer}>
-                    <SvgUri source={Facebook_logo} alt={"Facebook_logo"} style={styles.icons} onPress={() => Linking.openURL('https://www.facebook.com/breakfasy/')} />
-                    <SvgUri source={Instagram_logo} alt={"Instagram_logo"} style={styles.icons} onPress={() => Linking.openURL('https://www.instagram.com/breakfasy_/')} />
-                    <SvgUri source={Twitter_logo} alt={"Twitter_logo"} style={styles.icons} onPress={() => Linking.openURL('https://twitter.com/breakfasy_')} />
               </View>
         </View>
     );
@@ -51,6 +44,11 @@ const styles = StyleSheet.create({
   iconContainer: {
       flex: 1,
       flexDirection: "row"
+  }
+  container: {
+      flex: 1,
+      flexDirection: "column",
+      justifyContent: 'center'
   }
 
 });
