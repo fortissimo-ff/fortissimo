@@ -6,6 +6,7 @@ import Home from './src/components/Home/Home';
 import About from './src/components/About/About';
 import Video from './src/components/Video/Video';
 import WhatWeDo from './src/components/WhatWeDo/WhatWeDo';
+import Contact from './src/components/Contact/Contact';
 
 export default class App extends React.Component {
   render() {
@@ -17,6 +18,7 @@ export default class App extends React.Component {
 
           <Video />
           <WhatWeDo />
+          <Contact />
         </ScrollView>
       </View>
     );
