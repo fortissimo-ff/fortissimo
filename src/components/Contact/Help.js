@@ -1,12 +1,14 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Linking } from 'react-native';
 
 export default class Header extends React.Component {
   render() {
     return (
-      <Text style={styles.help}>
-        Take a minute to help.
-      </Text>
+      <TouchableOpacity onPress={() => Linking.openURL('https://www.surveymonkey.com/r/Y6JCLQG')}>
+        <Text style={styles.help}>
+          Take a minute to help.
+        </Text>
+      </TouchableOpacity>
     );
   }
 }

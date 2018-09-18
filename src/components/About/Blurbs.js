@@ -160,6 +160,7 @@ const styles = StyleSheet.create({
     marginRight: 'auto',
     marginBottom: 'auto',
     backgroundColor: 'white',
+    resizeMode: 'contain',
   },
 
   rightBlurbImages: {
@@ -170,6 +171,7 @@ const styles = StyleSheet.create({
     marginRight: 'auto',
     marginBottom: 'auto',
     backgroundColor: 'white',
+    resizeMode: 'contain',
   },
 
   fillSfImage: {

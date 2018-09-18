@@ -1,13 +1,15 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Linking } from 'react-native';
 
 
 export default class Chat extends React.Component {
   render() {
     return (
-      <Text style={styles.chat}>
-        Chat with us on messenger!
-      </Text>
+      <TouchableOpacity onPress={() => Linking.openURL('https://m.me/breakfasy')}>
+        <Text style={styles.chat}>
+          Chat with us on messenger!
+        </Text>
+      </TouchableOpacity>
     );
   }
 }
