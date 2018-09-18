@@ -8,12 +8,6 @@ export default class Header extends React.Component {
         <Text style={styles.header}>
           contact
         </Text>
-        <Text style={styles.chat}>
-          Chat with us on messenger!
-        </Text>
-        <Text style={styles.help}>
-          Take a minute to help.
-        </Text>
       </View>
     );
   }
@@ -30,28 +24,10 @@ const styles = StyleSheet.create({
 
   header: {
     color: 'white',
-    fontSize: 25,
+    fontSize: 35,
     fontStyle: 'italic',
     textAlign: 'center',
     justifyContent: 'top',
     top: '10%',
   },
-
-  chat: {
-    color: 'white',
-    fontSize: 25,
-    textAlign: 'center',
-    textDecorationLine: 'underline',
-    verticalAlign: 'middle',
-    top: '36%',
-  },
-
-  help: {
-    color: 'white',
-    fontSize: 25,
-    textAlign: 'center',
-    textDecorationLine: 'underline',
-    verticalAlign: 'middle',
-    top: '50%',
-  }
 });
