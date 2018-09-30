@@ -1,13 +1,15 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, ScrollView } from 'react-native';
 
 import Blurbs from './Blurbs';
 
 export default class WhatWeDo extends React.Component {
   render() {
     return (
-      <View>
-        <Blurbs />
+      <View style={styles.container}>
+        <ScrollView style={styles.scrollContainer}>
+          <Blurbs />
+        </ScrollView>
       </View>
     );
   }
