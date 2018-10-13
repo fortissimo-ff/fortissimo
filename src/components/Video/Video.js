@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, ScrollView } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import { WebView } from 'react-native';
 import { Dimensions } from 'react-native';
 
@@ -9,12 +9,10 @@ class Video extends Component {
   render() {
     return (
         <View style={styles.container}>
-          <ScrollView style={styles.scrollContainer}>
-            <WebView
-                source={{uri: 'https://www.youtube.com/embed/79XsGVCmNCo'}}
-                style={styles.video}
-            />
-          </ScrollView>
+          <WebView
+              source={{uri: 'https://www.youtube.com/embed/79XsGVCmNCo'}}
+              style={styles.video}
+          />
         </View>
     );
   }
